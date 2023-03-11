@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:hint="Montant à convertir" />
+
+    <Button
+        android:id="@+id/buttonMAD"
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:text="MAD" />
+
+    <Button
+        android:id="@+id/buttonEUR"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="EUR" />
+
+    <Button
+        android:id="@+id/buttonUSD"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="USD" />
+
+    <TextView
+        android:id="@+id/textViewEUR"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:text="EUR" />
+
+    <TextView
+        android:id="@+id/textViewUSD"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:text="USD" />
+
+</LinearLayout>
